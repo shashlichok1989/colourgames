@@ -1,0 +1,68 @@
+* {
+  font-family: Georgia;
+}
+
+.baner {
+  background-color: #824555;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.panele {
+  display: flex;
+  justify-content: flex-start;
+}
+.panellewy {
+  background-color: #a26475;
+  color: #fff;
+  width: 30%;
+  height: 300px;
+}
+
+.panelsrodkowy {
+  background-color: #a26475;
+  color: #fff;
+  width: 30%;
+  height: 300px;
+}
+table,
+th,
+td {
+  border: 2px solid #69293a;
+  padding: 7px;
+  border-collapse: collapse;
+}
+.panelprawy {
+  background-color: #a26475;
+  color: #fff;
+  width: 40%;
+  height: 300px;
+  text-align: right;
+}
+.panelglowny {
+  background-color: #f0eae2;
+  padding: 50px;
+}
+.button1 {
+  background-color: red;
+  height: 25px;
+  width: 5px;
+}
+.button2 {
+  background-color: green;
+  height: 25px;
+  width: 5px;
+}
+.button3 {
+  background-color: blue;
+  height: 25px;
+  width: 5px;
+}
+
+footer {
+  background-color: #824555;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}

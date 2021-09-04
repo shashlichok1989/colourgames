@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styl2.css">
+  <title>Formatowanie</title>
+</head>
+<body>
+  <div class="baner">
+    <h3 class="tytul-baner">Formatowanie dokumentów HTML</h3>
+  </div>
+  <div class="panele">
+  <div class="panellewy">
+    <h3 class="content-panel1">Przykład listy - hobby</h3>
+    <ul type="square">
+      <li>muzyka</li>
+      <li>turystyka
+        <ol>
+          <li>góry</li>
+          <li>jeziora</li>
+          <li>na rowerze</li>
+        </ol>
+      </li>
+      <li>książki</li>
+    </ul>
+  </div>
+  <div class="panelsrodkowy">
+    <h3 class="content-panel2">Przykład tabeli - rozkład dnia</h3>
+    <table>
+      <tr>
+        <th>Pora dnia</th>
+        <th>obowiązki</th>
+      </tr>
+      <tr>
+        <td>rano</td>
+        <td>nauka</td>
+      </tr>
+      <tr>
+        <td>południe</td>
+        <td>zajęcia dodatkowe</td>
+      </tr>
+      <tr>
+        <td>popołudnie</td>
+        <td rowspan="2">moje hobby</td>
+      </tr>
+      <tr>
+        <td>wieczór</td>
+      </tr>
+
+    </table>
+  </div>
+  <div class="panelprawy">
+    <img src="napisy.png" alt="technologia web">
+  </div>
+  </div>
+  <div class="panelglowny">
+    <label for="rozmiar">Podaj rozmiar tekstu w procentach:</label>
+    <input type="number" name="rozmiar" id="rozmiar">% <br>
+    <select name="styl" id="styl">
+      <option value="normal">prosty</option>
+      <option value="italic">kursywa</option>
+  </select>
+  <p>Jakim kolorem sformatować tekst? Wybierz przycisk</p><br>
+  <button class="button1" onclick="red()"></button>
+  <button class="button2" onclick="green()"></button>
+  <button class="button3" onclick="blue()"></button>
+  <br><p id="text">To jest przykład paragrafu, który może być dowolnie formatowany przez Java Script</p>
+  </div>
+  <footer>
+    <p>Formatowaniem tekstu zajmował się:<i>  89101513404</i></p><br>
+    <a href="foramtowanie.pl" target="_blank">Odwiedź także</a>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
